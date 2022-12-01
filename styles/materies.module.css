@@ -1,0 +1,70 @@
+.main {
+  max-width: 50%;
+  height: 60vh;
+  margin: 1rem auto;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.noteArea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.materyNote {
+  width: 50px;
+  height: 50px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #363636;
+  color: #f1f1f1;
+  outline: 0;
+  text-align: center;
+}
+.button {
+  margin: 25px 0 5px 0;
+  width: 30%;
+  background-color: #363636;
+  border: #363636;
+  padding: 0.3rem;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  color: #f1f1f1;
+  cursor: pointer;
+  height: 50px;
+}
+
+.buttonDelete {
+  margin: 5px 0 10px 0;
+  background-color: red;
+  border: red;
+  padding: 0.3rem;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.absenceArea {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.foults {
+  display: flex;
+  gap: 5px;
+}
